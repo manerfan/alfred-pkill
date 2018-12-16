@@ -17,7 +17,7 @@ Requires [Node.js](https://nodejs.org/) 4+ and the Alfred [Powerpack](https://ww
 
 ## Usage
 
-In Alfred, type `pkill`, <kbd>Enter</kbd> or <kbd>Space</kbd>, and the process name or :port or ?pid.
+In Alfred, type `pkill`, <kbd>Enter</kbd> or <kbd>Space</kbd>, and the process name or keyword or :port or ?pid.
 
 alfred-pkill will automatically find the corresponding process(es).
 
@@ -36,3 +36,8 @@ Hold <kbd>Command</kbd> and Press <kbd>Enter</kbd>, show the process command.
 ## License
 
 [Apache 2.0](LICENSE) © [ManerFan](https://github.com/manerfan)
+
+## Change Log
+
+- [0.1.2] Terminate a process by name or keyword or port or pid
+- [0.1.1] Terminate a process by name or port or pid

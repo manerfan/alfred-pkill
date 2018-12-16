@@ -73,7 +73,7 @@ let psListCache = async () => {
         processes = ps.filter(p => `${p.pid}` == input);
     } else {
         const ps = await psListCache();
-        processes = ps.filter(p => p.name.toLowerCase().includes(input));
+        processes = ps.filter(p => p.cmd.toLowerCase().includes(input));
     }
 
     let items = processes
